@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01203cc1a0dc8e44b40954cf261a769, type: 3}
+  m_Name: Solider Start
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: 48f855969f5039f4091c0f8634d25aaf, type: 3}
+    text: "\u4F60\u597D\u554A\uFF0C\u9A91\u58EB\uFF01"
+    quest: {fileID: 0}
+    options:
+    - text: "\u4F60\u597D\u554A\uFF01"
+      targetID: Piece02
+      takeQuest: 0
+  - ID: Piece02
+    image: {fileID: 21300000, guid: 48f855969f5039f4091c0f8634d25aaf, type: 3}
+    text: "\u6700\u8FD1\u4E1B\u6797\u8352\u91CE\u51FA\u73B0\u4E86\u8BB8\u591A\u5916\u6765\u7269\u79CD\uFF0C\u7ED9\u9644\u8FD1\u6751\u6C11\u7684\u751F\u6D3B\u5E26\u6765\u5F88\u591A\u4E0D\u4FBF\uFF0C\u8FD9\u8BA9\u6211\u975E\u5E38\u5934\u75BC\u3002"
+    quest: {fileID: 0}
+    options: []
+  - ID: Piece03
+    image: {fileID: 21300000, guid: 48f855969f5039f4091c0f8634d25aaf, type: 3}
+    text: "\u6240\u4EE5\uFF0C\u672C\u9A91\u58EB\u60F3\u59D4\u6258\u4F60\u524D\u53BB\u4E1B\u6797\u8352\u91CE\u5BFB\u627E\u8FD9\u4E9B\u602A\u517D\uFF0C\u5E76\u5E2E\u6211\u6D88\u706D\u4ED6\u4EEC\u3002\u4F60\u80FD\u5B8C\u6210\u8FD9\u4E2A\u91CD\u5927\u7684\u4EFB\u52A1\u5417\uFF1F\u6211\u4F1A\u7ED9\u4E88\u4F60\u4E30\u539A\u7684\u5956\u52B1\uFF01"
+    quest: {fileID: 11400000, guid: a722e47cdef076f4da0e469b03c093dd, type: 2}
+    options:
+    - text: "\u6CA1\u95EE\u9898\uFF01"
+      targetID: 
+      takeQuest: 1
+    - text: "\u6211\u4E0D\u80FD\u63A5\u53D7\uFF01"
+      targetID: 
+      takeQuest: 0

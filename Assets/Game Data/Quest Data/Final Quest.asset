@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f6bc4d11000c74dbf2b56a4ee59770, type: 3}
+  m_Name: Final Quest
+  m_EditorClassIdentifier: 
+  questName: "\u8611\u83C7\u5927\u4F5C\u6218"
+  description: "\u672C\u9A91\u58EB\u5F88\u559C\u6B22\u5403\u8611\u83C7\uFF0C\u4F60\u53BB\u5E2E\u6211\u6536\u96C62\u4E2A\u5927\u8611\u83C7\u5427\uFF01\u6211\u4F1A\u7ED9\u4E88\u4F60\u5956\u52B1\u7684\u3002"
+  isStarted: 0
+  isComplete: 0
+  isFinished: 0
+  questRequires:
+  - name: "\u5927\u8611\u83C7"
+    requireAmount: 2
+    currentAmount: 0
+  rewards:
+  - itemData: {fileID: 11400000, guid: 04c5ec9a4340d20499b709bd38430c43, type: 2}
+    amount: -2
+  - itemData: {fileID: 11400000, guid: 5c57a01e13084dd4b8cf772e4192c9b1, type: 2}
+    amount: 1

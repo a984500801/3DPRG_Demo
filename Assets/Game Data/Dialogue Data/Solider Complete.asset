@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01203cc1a0dc8e44b40954cf261a769, type: 3}
+  m_Name: Solider Complete
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: 48f855969f5039f4091c0f8634d25aaf, type: 3}
+    text: "\u592A\u597D\u4E86\uFF0C\u4F60\u5E2E\u6211\u6740\u4E86\u5B83\u4EEC\uFF01\u8FD9\u662F\u6211\u7ED9\u4F60\u51C6\u5907\u7684\u793C\u7269\uFF01"
+    quest: {fileID: 11400000, guid: a722e47cdef076f4da0e469b03c093dd, type: 2}
+    options:
+    - text: "\u8C22\u8C22\uFF01"
+      targetID: 
+      takeQuest: 1
